@@ -1,0 +1,57 @@
+:root {
+    color-scheme: dark;
+}
+
+video {
+  width: 100%;
+}
+
+.caption {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.caption_child {
+    display: inline-block;
+}
+
+.caption_time {
+    /* margin-left: -150px; */
+    /* display: none; */
+    margin-right: 15px;
+    padding: 12px 12px 12px 12px;
+    background-color: #2a2a2a;
+    cursor: pointer;
+    color: #2f2f2f;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.caption_time:hover {
+    /* text-decoration: underline; */
+    background-color: #777777;
+}
+
+.caption_text {
+    color: #cccccc;
+    /* margin-right: 68px; */
+}
+
+.active > .caption_text {
+    color: indianred;
+}
+
+#caption_list {
+    overflow-y: auto;
+    resize: vertical;
+    font-family: Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+/* #caption_list::-webkit-scrollbar {
+    display: none;
+} */

@@ -1,0 +1,4 @@
+video/**/*.mkv
+video/**/*.mp4
+video/**/*.vtt
+video/**/*.srt
