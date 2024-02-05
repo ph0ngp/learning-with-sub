@@ -45,7 +45,7 @@ function startup() {
             })
             i += 1
         }
-        caption_list.style.height = getRangeHeight(caption_list.children[0],0,1)+'px'
+        caption_list.style.height = getRangeHeight(caption_list.children[0],0,2)+'px'
     }
 }
 
