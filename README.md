@@ -22,3 +22,5 @@ This tool helps you learn a language by watching movies with subtitles, making i
 - If you scroll the current subtitle line out of view, when you move your cursor out of the subtitle view (inside the video view) and let the video continue to play, on the next subtitle line, the subtitle view will automatically scroll to the current subtitle line
 
 ### Screenshot
+![截屏2024-10-05 16 13 44](https://github.com/user-attachments/assets/3174f33c-cfc8-4258-bf1d-325162ce3531)
+
