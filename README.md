@@ -5,11 +5,11 @@ This tool helps you learn a language by watching movies with subtitles, making i
 ### How to setup
 
 - Inside `video/`, create new folder named `0`.
-- You need to have your movie file and subtitle file ready in the below format. If you don't have them in these formats, look at `script.sh` for converting commands.
+- You need to have your movie file and subtitle file ready in the below format. If you don't have them in these formats, look at `script.sh` for converting commands reference (this file is just a scratchpad of command reference. Craft your own command that fits your own case)
 - Put `0.mp4`, `0.vtt`, `0v.vtt` in `video/0/`
     - `0.mp4` is the movie file
         - video codec: must be h264 (libx264)
-        - audio codec: needs to be aac. ac3 / eac3 will not work
+        - audio codec: needs to be aac; ac3 / eac3 will not work
     - `0.vtt` is the subtitle file
     - `0v.vtt` is the 2nd subtitle file (optional, for example for another language)
 - Install https://www.npmjs.com/package/http-server
